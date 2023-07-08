@@ -1,0 +1,14 @@
+.navdiv {
+  padding-top: 50px;
+  width: 89%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navdiv ul {
+  display: flex;
+}
+.navdiv ul li {
+  margin-left: 15px;
+}/*# sourceMappingURL=navbar.css.map */

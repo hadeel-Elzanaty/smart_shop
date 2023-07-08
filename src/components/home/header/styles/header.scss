@@ -1,0 +1,11 @@
+.swiper{
+    
+    .swiper-initialized.swipper-horizontal.swiper-backface-hidden{
+    color: white;
+    position: absolute;
+    top: 100%;
+    background-color:var(--swiper-navigation-color, var(--swiper-theme-color)) ;
+    width: 20px;
+    height: 20px;
+
+    }}
