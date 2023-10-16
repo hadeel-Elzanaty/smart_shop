@@ -1,0 +1,28 @@
+$primery-color: #7FD3DF;
+
+.prodsAddress {
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+
+    &::after {
+        content: " ";
+        width: 9.5%;
+        border: 2px solid $primery-color;
+        position: absolute;
+        bottom: -40%;
+        left: 45%;
+        border-radius: 3px;
+        
+
+    }
+}
+
+.prodsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:30px auto;
+
+
+}

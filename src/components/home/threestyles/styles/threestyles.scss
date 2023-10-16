@@ -1,0 +1,31 @@
+$darkgray-color: #565656;
+
+.brandStyles {
+    font-family: Tajawal;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin:100px auto 120px;
+
+    .stylesDiv {
+        p {
+            color: $darkgray-color;
+            font-size: 12px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 18px;
+            font-weight: bolder;
+            margin-bottom: 15px;
+            margin-right: 15px;
+        }
+
+        div img {
+            height: 400px;
+            width: 89%;
+            border-radius: 20px;
+            margin-bottom: 15px;
+        }
+    }
+}

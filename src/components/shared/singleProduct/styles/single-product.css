@@ -1,0 +1,81 @@
+.pro-div {
+  width: 190px;
+  margin: 30px 10px;
+}
+.pro-div .pro-img {
+  height: 280px;
+  position: relative;
+}
+.pro-div .pro-img img {
+  height: 250px;
+  width: 100%;
+}
+.pro-div .pro-img .like-icon {
+  color: #7FD3DF;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.pro-div .pro-img .notlike-icon {
+  color: rgba(0, 0, 0, 0.3019607843);
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.pro-div .pro-img .addPro {
+  background-color: #7FD3DF;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 20%;
+  opacity: 0.7;
+}
+.pro-div .pro-img .addPro h2 {
+  font-weight: bolder;
+  margin-top: 7%;
+}
+.pro-div .pro-details {
+  display: flex;
+  justify-content: space-between;
+}
+.pro-div .pro-details .pro-price {
+  color: #7FD3DF;
+  margin-right: 40px;
+}
+.pro-div .pro-details .starsDiv input[type=radio] {
+  display: none;
+}
+.pro-div .pro-details .starsDiv .star {
+  cursor: pointer;
+}
+.pro-div .pro-name {
+  display: flex;
+  justify-content: space-around;
+}
+.pro-div .pro-name .pro-delprice {
+  margin-right: 20px;
+}
+.pro-div .pro-name .pro-delprice del {
+  color: #7FD3DF;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.pro-div .pro-name .pro-delprice div {
+  font-weight: bold;
+}
+.pro-div .btn-div {
+  float: right;
+  padding-right: 6%;
+}
+.pro-div .btn-div .pro-btn {
+  border: 1.5px solid rgba(0, 0, 0, 0.3019607843);
+  height: 25px;
+  width: 22px;
+  margin-left: 7px;
+}
+.pro-div .btn-div .active {
+  background-color: #7FD3DF;
+  color: white;
+}/*# sourceMappingURL=single-product.css.map */

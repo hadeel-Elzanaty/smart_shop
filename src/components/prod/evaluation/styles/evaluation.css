@@ -1,0 +1,122 @@
+.mainEvaluation {
+  width: 85%;
+  margin: auto;
+  font-family: Tajawal;
+}
+.mainEvaluation .titEvaluation {
+  display: flex;
+  justify-content: center;
+}
+.mainEvaluation .titEvaluation li {
+  margin-left: 50px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.mainEvaluation .titEvaluation li .active::after {
+  content: " ";
+  width: 130px;
+  border: solid black 1px;
+  position: absolute;
+  bottom: -10px;
+  left: -20px;
+}
+.mainEvaluation .contentEvaluation {
+  display: flex;
+  justify-content: right;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation {
+  margin-left: 70px;
+  width: 40%;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate {
+  display: flex;
+  margin-bottom: 30px;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments {
+  display: flex;
+  flex-direction: column;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments .stars {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments .date {
+  display: flex;
+  justify-content: right;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments .date h6 {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.mainEvaluation .contentEvaluation .usersEvaluation .evaluate .comments p {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: right;
+  font-family: Tajawal;
+  font-size: 13px;
+  font-weight: 400;
+}
+.mainEvaluation .contentEvaluation .addEvaluate {
+  text-align: right;
+  width: 45%;
+}
+.mainEvaluation .contentEvaluation .addEvaluate h3 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 18px;
+  font-weight: 500;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .addStars {
+  display: flex;
+  justify-content: right;
+  margin-top: 8px;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .addStars .stars {
+  display: flex;
+  margin-top: 9px;
+  margin-right: 20px;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .addStars h4 {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .form {
+  margin-top: 15px;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .form input[type=text],
+.mainEvaluation .contentEvaluation .addEvaluate .form textarea {
+  margin-top: 15px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 7px 20px;
+  width: 100%;
+  text-align: right;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .form .persInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .form .persInfo .input2 {
+  width: 45%;
+}
+.mainEvaluation .contentEvaluation .addEvaluate .form input[type=submit] {
+  text-align: right;
+  background-color: #7FD3DF;
+  color: white;
+  margin-top: 15px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 14px;
+}/*# sourceMappingURL=evaluation.css.map */

@@ -1,0 +1,90 @@
+.mark-cart {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.mark-cart .markTable {
+  text-align: right;
+}
+.mark-cart .markTable h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.mark-cart .markTable .btnsCart {
+  display: flex;
+  color: #7FD3DF;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mark-cart .markCobon {
+  background-color: white;
+  box-shadow: 0px 11px 54px 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: right;
+  width: 35%;
+  height: 100vh;
+}
+.mark-cart .markCobon h4 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.mark-cart .markCobon p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.mark-cart .markCobon .cobonForm {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.mark-cart .markCobon .cobonForm input[type=text] {
+  margin-left: 50px;
+  border-radius: 5px;
+  width: 40%;
+  text-align: right;
+  font-size: 15px;
+  padding: 5px 10px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+.mark-cart .markCobon .cobonForm input[type=submit] {
+  margin-left: 50px;
+  border-radius: 5px;
+  width: 40%;
+  font-size: 15px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #7FD3DF;
+}
+.mark-cart .markCobon textarea {
+  text-align: right;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  margin: 20px auto 13px;
+  width: 100%;
+  outline: none;
+}
+.mark-cart .markCobon .sum {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.mark-cart .markCobon small {
+  color: rgba(0, 0, 0, 0.7);
+}
+.mark-cart .markCobon .payBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.mark-cart .markCobon .payBtns button {
+  background-color: #7FD3DF;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}/*# sourceMappingURL=markCart.css.map */

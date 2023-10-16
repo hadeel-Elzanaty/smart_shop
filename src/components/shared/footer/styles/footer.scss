@@ -1,0 +1,33 @@
+$back_color: #54A4AF;
+$primary_color: #7FD3DF;
+
+.footerDiv {
+    font-family: El Messiri;
+    background-color: $back_color;
+    color: white;
+    padding: 30px;
+
+    .footnav {
+        font-size: 20px;
+        margin-bottom: 30px;
+
+        li {
+            margin-left: 25px;
+        }
+    }
+
+    .footSocial {
+        ul li {
+            margin-left: 20px;
+        }
+    }
+    h4{
+
+        font-size: 33px;
+        margin-top: 20px;
+    }
+    h5{
+        font-size: 20px;
+        
+    }
+}

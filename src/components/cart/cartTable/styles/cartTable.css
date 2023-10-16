@@ -1,0 +1,58 @@
+.table {
+  margin-bottom: 20px;
+}
+.table thead tr th {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+.table tr {
+  border-bottom: 1px solid rgb(203, 202, 202);
+  text-align: center;
+}
+.table tr td {
+  padding: 20px 20px;
+}
+.table tr td .marketCounter {
+  margin-top: 5px;
+}
+.table tr td .marketCounter .plusbtn {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 0px 8px 1px;
+  border-radius: 0px 10px 10px 0px;
+}
+.table tr td .marketCounter span {
+  padding: 3px 8px;
+  font-size: 14px;
+}
+.table tr td .marketCounter .minusbtn {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 0px 8px 1px;
+  border-radius: 10px 0px 0px 10px;
+}
+.table tr td .prodDetails {
+  justify-content: right;
+  display: flex;
+}
+.table tr td .prodDetails h4 {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+.table tr td .prodDetails h5 {
+  font-size: 13px;
+  text-align: right;
+}
+.table tr td .prodDetails img {
+  height: 100px;
+  border: 1px solid rgb(215, 213, 213);
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.table tr td .spanbold {
+  font-size: 12px;
+  font-weight: 700;
+}
+.table tr .closeBtn {
+  color: #7FD3DF;
+}/*# sourceMappingURL=cartTable.css.map */

@@ -1,0 +1,18 @@
+.similer {
+  width: 95%;
+  margin: 70px auto 100px;
+}
+.similer h1 {
+  text-align: center;
+  position: relative;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.similer h1::after {
+  content: " ";
+  border: #7FD3DF 1px solid;
+  width: 20%;
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+}/*# sourceMappingURL=similerproducts.css.map */

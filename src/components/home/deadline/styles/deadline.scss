@@ -1,0 +1,68 @@
+$background-color: #BDE6FC;
+$purple-color: #9363B5;
+
+.mainDiv {
+    background-color: $background-color;
+    width: 100%;
+    justify-content: space-around;
+    height: 550px;
+
+    .firstImg {
+
+        img {
+            height: 400px;
+            margin-top: 150px;
+            width: 300px;
+
+        }
+    }
+
+    .secImg {
+
+        img {
+            width: 300px;
+            height: 500px;
+        }
+
+    }
+
+    .midDiv {
+        padding-top: 100px;
+        width: 60%;
+
+        h6 {
+            font-size: 33px;
+
+        }
+
+        h1 {
+            color: $purple-color;
+            font-weight: bolder;
+            font-size: 65px;
+        }
+
+        .time-div {
+            font-weight: bolder;
+            font-size: 50px;
+
+            div {
+                margin-left: 30px;
+            }
+
+            .second {
+                color: $purple-color;
+            }
+        }
+
+        .btn {
+            margin-top: 20px;
+            background-color: $purple-color;
+            display: inline-block;
+            color:white;
+            padding: 5px 15px 12px ;
+            font-weight: bold;
+            font-size: 30px;
+            border-radius: 40px;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+$primery-color : #7FD3DF;
+.sliderBtns{
+
+    .nextbtn{
+        width: 30px;
+         height: 30px;
+         background-color: $primery-color;
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         position: absolute;
+         color: white;
+         top: 46%;
+         right: 0px;
+         z-index: 2;
+        // transform: translateY(-50%);
+         cursor: pointer;
+    }
+    
+    .prevbtn{
+           width: 30px;
+            height: 30px;
+            background-color: $primery-color;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            color: white;
+            top: 46%;
+            left: 0px;
+            z-index: 2;
+            transform: rotate(180deg);
+            cursor: pointer;
+
+
+    }
+}

@@ -1,0 +1,22 @@
+$primery-color: #7FD3DF;
+
+.similer {
+    width: 95%;
+    margin: 70px auto 100px;
+
+    h1 {
+        text-align: center;
+        position: relative;
+        font-weight: bolder;
+        font-size: 20px;
+
+        &::after {
+            content: " ";
+            border: $primery-color 1px solid;
+            width: 20%;
+            position: absolute;
+            bottom: -5px;
+            left: 40%;
+        }
+    }
+}

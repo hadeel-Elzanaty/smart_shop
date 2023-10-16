@@ -1,0 +1,50 @@
+.options-div {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  position: relative;
+  margin: 70px auto;
+}
+.options-div .four-options {
+  text-align: right;
+}
+.options-div .four-options .option-content {
+  margin-right: 10px;
+}
+.options-div .four-options .option-content h6 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.options-div .four-options .option-content p {
+  font-size: 13px;
+  color: #8E8E8E;
+}
+.options-div .four-options .option-img {
+  width: 49px;
+  height: 49px;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #EAEAEA;
+  background: #FFF;
+}
+.options-div .four-options .option-img svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.options-div::after {
+  content: "";
+  width: 100%;
+  border: 2px rgba(147, 202, 222, 0.3019607843) solid;
+  position: absolute;
+  bottom: -80%;
+  left: 0%;
+}
+
+hr {
+  margin-bottom: 70px;
+  height: 5px;
+}
+
+/*  *//*# sourceMappingURL=options.css.map */

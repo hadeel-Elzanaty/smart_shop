@@ -1,0 +1,23 @@
+.footerDiv {
+  font-family: El Messiri;
+  background-color: #54A4AF;
+  color: white;
+  padding: 30px;
+}
+.footerDiv .footnav {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.footerDiv .footnav li {
+  margin-left: 25px;
+}
+.footerDiv .footSocial ul li {
+  margin-left: 20px;
+}
+.footerDiv h4 {
+  font-size: 33px;
+  margin-top: 20px;
+}
+.footerDiv h5 {
+  font-size: 20px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,115 @@
+.mainDesc {
+  text-align: right;
+}
+.mainDesc h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.mainDesc .proPrice {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.mainDesc .stars {
+  margin-bottom: 15px;
+}
+.mainDesc .stars .evaValue {
+  color: rgb(171, 170, 170);
+  font-size: 10px;
+  margin-right: 5px;
+}
+.mainDesc p {
+  color: rgb(144, 144, 144);
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.mainDesc h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.mainDesc .colorImgs {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 15px;
+}
+.mainDesc .colorImgs img {
+  border: 0.5px solid #5f5e5e;
+  border-radius: 50%;
+  margin-left: 5px;
+  height: 20px;
+  width: 20px;
+}
+.mainDesc .weight button {
+  border: 0.5px solid #5f5e5e;
+  border-radius: 4px;
+  margin-left: 5px;
+  padding: 5px;
+}
+.mainDesc .weight button:hover, .mainDesc .weight button:active {
+  border: 2px solid #7FD3DF;
+}
+.mainDesc .addpeices {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+}
+.mainDesc .addpeices .add2cart {
+  background-color: #7FD3DF;
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.mainDesc .addpeices .counter {
+  margin-top: 5px;
+}
+.mainDesc .addpeices .counter .plusbtn {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 0px 8px 1px;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.mainDesc .addpeices .counter span {
+  padding: 1.2px 8px 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.mainDesc .addpeices .counter .minusbtn {
+  background-color: rgba(217, 217, 217, 0.5);
+  padding: 0px 8px 1px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.mainDesc .addFav {
+  display: flex;
+  justify-content: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.mainDesc .addFav .addFavContent {
+  font-size: 13px;
+}
+.mainDesc .addFav .like-icon {
+  color: #7FD3DF;
+}
+.mainDesc .addFav .notlike-icon {
+  color: rgb(188, 188, 186);
+}
+.mainDesc .buynow {
+  background-color: #7FD3DF;
+  color: white;
+  width: 80%;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.mainDesc h5 {
+  font-weight: bold;
+}
+.mainDesc .Social {
+  margin-top: 15px;
+}
+.mainDesc .Social li {
+  margin-left: 10px;
+}/*# sourceMappingURL=descProd.css.map */

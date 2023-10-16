@@ -1,0 +1,48 @@
+.bannars-div {
+  width: 85%;
+  margin: 100px auto 70px;
+}
+.bannars-div .bannar {
+  margin: auto;
+  width: 45%;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+}
+.bannars-div .bannar .bannar-content {
+  margin-top: 20%;
+  width: 45%;
+  text-align: right;
+}
+.bannars-div .bannar .bannar-content h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.bannars-div .bannar .bannar-content h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.bannars-div .bannar .bannar-content p {
+  position: relative;
+}
+.bannars-div .bannar .bannar-content p::after {
+  content: " ";
+  width: 40%;
+  border: 2px solid #7FD3DF;
+  position: absolute;
+  bottom: -20%;
+  left: 60%;
+  border-radius: 3px;
+}
+.bannars-div .bannar .banImg-div {
+  width: 44%;
+}
+.bannars-div .bannar .banImg-div img {
+  height: 250px;
+}
+.bannars-div .ban-one {
+  background-color: #D6F7FE;
+}
+.bannars-div .ban-two {
+  background-color: #FFDBDF;
+}/*# sourceMappingURL=bannars.css.map */

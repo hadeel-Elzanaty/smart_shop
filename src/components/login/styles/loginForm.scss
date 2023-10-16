@@ -1,0 +1,130 @@
+.logindiv {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    .btnsRegister {
+        position: relative;
+
+        background-image: url("../../../assets/images/signup-bg.jpeg");
+        background-position: center;
+        background-size: cover;
+
+        width: 45%;
+
+
+        button {
+            width: 120px;
+            text-align: right;
+            border-radius: 0px 20px 20px 0px;
+            color: black;
+            background-color: white;
+
+            padding: 5px 10px;
+
+        }
+
+        .active {
+            color: white;
+            background-color: #7FD3DF;
+
+        }
+
+        .button1 {
+            position: absolute;
+            bottom: 55%;
+            left: 0;
+
+
+        }
+
+        .button2 {
+            position: absolute;
+            bottom: 45%;
+            left: 0;
+        }
+    }
+
+    .mainFormdiv {
+        text-align: right;
+        padding: 50px 80px;
+        font-family: Tajawal;
+        //   background-color: aqua;
+        width: 55%;
+
+        h2 {
+            font-weight: bolder;
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            font-weight: bolder;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 13px;
+        }
+
+        .formdiv {
+
+            padding-left: 20%;
+
+            hr {
+                margin-bottom: 0px;
+            }
+
+            .errMessage {
+                color: brown;
+            }
+
+        
+            .emaildiv {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0px;
+           
+           
+                input {
+                    padding:4px 8px;
+                    outline: none;
+                    width: 80%;
+                    text-align: right;
+                }
+            }
+
+            .passwordDiv {
+
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0px;
+
+                input {
+                    padding: 6px;
+                    outline: none;
+                    width: 80%;
+                    text-align: right;
+                }
+            }
+            .submitdiv{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                h5{
+                    color: #69BFFF;;
+                    cursor: pointer;
+                }
+                button{
+                    background-color: #7FD3DF;
+                    color: white;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+}

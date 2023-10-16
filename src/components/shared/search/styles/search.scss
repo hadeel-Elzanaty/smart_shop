@@ -1,0 +1,68 @@
+$babyBlue-color: #93CADE;
+
+.overlay {
+    width: 100%;
+    height: 100%;
+  // background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 2;
+
+    .mainSearch {
+        font-family: El Messiri;
+        height: 30vh;
+position: relative;
+        background-color: $babyBlue-color ;
+        width: 60%;
+        padding: 30px 80px;
+
+        margin: 1% 10%;
+        text-align: right;
+
+        p {
+            position: absolute;
+            top: 10%;
+            right: 3%;
+        }
+
+        label {
+            display: block;
+            color: #282828;
+            font-size: 15px;
+         
+            margin-bottom: 20px;
+            font-weight: 600;
+
+        }
+
+        .searchDiv {
+
+            display: flex;
+
+            .searchBtn {
+                position: relative;
+
+            }
+
+            input {
+                width: 100%;
+                background-color: transparent;
+                text-align: right;
+                border: 0px 0px 1px 0px solid white;
+                border-bottom-color: white;
+
+                position: relative;
+                outline: none;
+
+
+
+            }
+
+        }
+
+        hr {
+            margin-top: 10px;
+            height: 4px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,167 @@
+.mainEvaluation {
+    width: 85%;
+    margin: auto;
+    font-family: Tajawal;
+
+    .titEvaluation {
+        display: flex;
+        justify-content: center;
+
+        li {
+            margin-left: 50px;
+            position: relative;
+            margin-bottom: 10px;
+
+            .active {
+                &::after {
+                    content: " ";
+                    width: 130px;
+                    border: solid black 1px;
+                    position: absolute;
+                    bottom: -10px;
+                    left: -20px;
+
+                }
+            }
+        }
+    }
+
+    .contentEvaluation {
+
+        display: flex;
+        justify-content: right;
+
+        .usersEvaluation {
+            margin-left: 70px;
+            width: 40%;
+
+            .evaluate {
+                display: flex;
+                margin-bottom: 30px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-left: 20px;
+
+                }
+
+                .comments {
+                    display: flex;
+                    flex-direction: column;
+
+                    .stars {
+
+                        display: flex;
+                        justify-content: right;
+                        margin-top: 15px;
+
+
+                    }
+
+                    .date {
+                        display: flex;
+                        justify-content: right;
+
+                        h6 {
+                            font-size: 13px;
+
+                            color: rgba(0, 0, 0, 0.70);
+                        }
+                    }
+
+                    h2 {
+                        color: rgba(0, 0, 0, 0.70);
+                        font-family: Tajawal;
+
+
+                        font-weight: 500;
+
+                    }
+
+                    p {
+                        color: rgba(0, 0, 0, 0.40);
+                        text-align: right;
+                        font-family: Tajawal;
+                        font-size: 13px;
+
+
+                        font-weight: 400;
+
+
+                    }
+                }
+            }
+        }
+
+        .addEvaluate {
+            text-align: right;
+            width: 45%;
+
+            h3 {
+                color: rgba(0, 0, 0, 0.70);
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .addStars {
+                display: flex;
+                justify-content: right;
+                margin-top: 8px;
+
+                .stars {
+                    display: flex;
+                    margin-top: 9px;
+                    margin-right: 20px;
+                }
+
+                h4 {
+                    color: rgba(0, 0, 0, 0.70);
+                    font-weight: 500;
+                }
+            }
+
+            .form {
+
+
+                margin-top: 15px;
+
+                input[type=text],
+                textarea {
+                    margin-top: 15px;
+                    display: block;
+                    border: 1px solid rgba(0, 0, 0, 0.40);
+                    padding: 7px 20px;
+                    width: 100%;
+                    text-align: right;
+                    border-radius: 20px;
+                    font-size: 14px;
+
+
+                }
+
+                .persInfo {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .input2 {
+                        width: 45%;
+
+                    }
+                }
+
+                input[type=submit] {
+                    text-align: right;
+                    background-color: #7FD3DF;
+                    color: white;
+                    margin-top: 15px;
+                    padding: 10px 30px;
+                    border-radius: 20px;
+                    font-size: 14px;
+
+                }
+            }
+        }
+    }
+}

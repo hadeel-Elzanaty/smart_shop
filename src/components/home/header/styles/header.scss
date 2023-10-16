@@ -1,11 +1,64 @@
-.swiper{
-    
-    .swiper-initialized.swipper-horizontal.swiper-backface-hidden{
-    color: white;
-    position: absolute;
-    top: 100%;
-    background-color:var(--swiper-navigation-color, var(--swiper-theme-color)) ;
-    width: 20px;
-    height: 20px;
+$primary_color: #7FD3DF;
 
-    }}
+.swiper {
+ 
+    .slide {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 15%;
+
+        .brand-imgdiv {
+            position: relative;
+
+            img {
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+                position: relative;
+                top: 20px;
+                left: 80px;
+                z-index: 10;
+            }
+
+            .svg1 {
+                position: absolute;
+                top: 20px;
+                left: 70px;
+                z-index: -1;
+            }
+
+            .svg2 {
+                position: absolute;
+                top: 20px;
+                left: 70px;
+                z-index: 1;
+            }
+
+        }
+
+        .brand-content {
+            margin-right: 10%;
+            margin-top: 14%;
+
+            h4 {
+                font-weight: bold;
+                font-size: 35px;
+                margin: 12px auto;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            button {
+
+                background-color: #7FD3DF;
+                border-radius: 20px;
+                padding: 10px 30px;
+                color: white;
+                margin-top: 20px;
+            }
+        }
+    }
+}

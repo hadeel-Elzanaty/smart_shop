@@ -1,0 +1,118 @@
+$primery-color: #7FD3DF;
+$gray-color: #0000004D;
+
+.pro-div {
+
+    width: 190px;
+    margin: 30px 10px;
+
+
+    .pro-img {
+
+        height: 280px;
+        position: relative;
+
+        img {
+            height: 250px;
+            width: 100%;
+
+        }
+
+        .like-icon {
+            color: $primery-color ;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+
+        }
+
+        .notlike-icon {
+            color: $gray-color ;
+            position: absolute;
+            top: 5%;
+            right: 5%;
+
+        }
+
+        .addPro {
+            background-color: $primery-color;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0%;
+            left: 0%;
+            width: 100%;
+            height: 20%;
+            opacity: 0.7;
+
+            h2 {
+                font-weight: bolder;
+                margin-top: 7%;
+            }
+        }
+
+    }
+
+    .pro-details {
+
+
+        display: flex;
+        justify-content: space-between;
+
+        .pro-price {
+            color: #7FD3DF;
+            margin-right: 40px;
+        }
+
+        .starsDiv {
+            input[type=radio] {
+                display: none;
+            }
+            .star{
+                cursor: pointer;
+            }
+
+        }
+    }
+
+    .pro-name {
+        display: flex;
+        justify-content: space-around;
+
+        .pro-delprice {
+            margin-right: 20px;
+
+            del {
+                color: #7FD3DF;
+                font-size: 12px;
+                margin-left: 5px;
+            }
+
+            div {
+                font-weight: bold;
+            }
+        }
+    }
+
+    .btn-div {
+        float: right;
+        padding-right: 6%;
+
+        .pro-btn {
+            border: 1.5px solid $gray-color;
+
+            height: 25px;
+            width: 22px;
+            margin-left: 7px;
+
+
+
+        }
+
+        .active {
+            background-color: $primery-color;
+
+            color: white;
+        }
+    }
+
+}

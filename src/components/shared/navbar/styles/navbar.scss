@@ -1,16 +1,45 @@
-.navdiv{
-    padding-top: 50px;
-width: 89%;
-justify-content: center;
-margin: auto;
-   display: flex;
-   justify-content: space-between;
- ul{
-    display: flex;
-    li {
-        margin-left: 15px;
-    }
+$primery-color : #7FD3DF;
 
- }
-   
+.navdiv {
+    font-family: El Messiri;
+
+    padding-top: 50px;
+    width: 89%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+
+        li {
+            margin-left: 15px;
+
+            .active {
+                color: $primery-color;
+
+
+            }
+
+
+        }
+
+        .cartlist {
+            position: relative;
+
+            .cartprod {
+                position: absolute;
+                top: -5px;
+                left: 8px;
+                background-color: $primery-color;
+                color: white;
+                border-radius: 50%;
+                width: 12px;
+                height: 12px;
+                font-size: 10px;
+            }
+        }
+
+    }
 }

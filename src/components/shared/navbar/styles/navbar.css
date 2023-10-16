@@ -1,4 +1,5 @@
 .navdiv {
+  font-family: El Messiri;
   padding-top: 50px;
   width: 89%;
   justify-content: center;
@@ -11,4 +12,21 @@
 }
 .navdiv ul li {
   margin-left: 15px;
+}
+.navdiv ul li .active {
+  color: #7FD3DF;
+}
+.navdiv ul .cartlist {
+  position: relative;
+}
+.navdiv ul .cartlist .cartprod {
+  position: absolute;
+  top: -5px;
+  left: 8px;
+  background-color: #7FD3DF;
+  color: white;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  font-size: 10px;
 }/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 85%;
+  position: relative;
+}
+.main .swiperDiv {
+  width: 72%;
+}
+.main .table {
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.main .table thead {
+  background-color: #7FD3DF;
+  color: white;
+}
+.main .table thead th {
+  padding: 20px 8px;
+  border-radius: 15px 15px 0px 0px;
+}
+.main .table tbody {
+  padding: 0;
+}
+.main .table tbody tr {
+  border: 1px solid rgba(128, 127, 127, 0.3019607843);
+  height: 50px;
+}
+.main .table tbody tr td {
+  border-radius: 0px 0px 29.836px 29.836px;
+}/*# sourceMappingURL=allcategories.css.map */

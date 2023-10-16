@@ -1,0 +1,56 @@
+
+$primery-color : #7FD3DF;
+
+$gray-color: #807f7f4d;
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 85%;
+    position: relative;
+    .swiperDiv {
+        width: 72%;
+   
+    }
+    .table {
+
+        width: 200px;
+margin-top: 20px;
+        border-radius: 50px;
+
+        thead {
+
+            background-color: $primery-color;
+            color: white;
+
+
+
+            th {
+                padding: 20px 8px;
+                border-radius: 15px 15px 0px 0px;
+
+            }
+        }
+
+        tbody {
+            padding: 0;
+
+
+            tr {
+
+                border: 1px solid $gray-color;
+
+                height: 50px;
+
+                td {
+                    border-radius: 0px 0px 29.836px 29.836px;
+                }
+
+
+
+
+            }
+        }
+    }
+}

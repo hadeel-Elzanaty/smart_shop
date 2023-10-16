@@ -1,0 +1,122 @@
+$primery-color: #7FD3DF;
+
+.overlayVisitor {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  left: 50px;
+  z-index: 2;
+
+  background-color: transparent;
+  .mainVisitor {
+    width: 20%;
+    background-color: rgb(224, 231, 231);
+    border-radius: 15px;
+   
+    padding:35px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 170px;
+    font-size: 18px;
+    font-weight: bold;
+
+    div {
+      display: flex;
+      justify-content: right;
+      margin-bottom: 20px;
+
+
+
+      .login {
+        color: $primery-color;
+      }
+
+      span {
+        height: 30px;
+      }
+    }
+  }
+
+  .mainUser {
+    width: 20%;
+    background-color: rgb(224, 231, 231);
+    border-radius: 15px;
+   
+    padding:  20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+
+    hr {
+      background-color: rgba(0, 0, 0, .3);
+      height: 1px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .threedivs {
+      display: flex;
+      justify-content: right;
+      margin-bottom: 15px;
+      margin-right: 30px;
+      font-size: 13px;
+
+      .icon {
+        margin-left: 15px;
+        margin-top: 5px;
+      }
+
+    }
+
+    .activeDiv {
+      color: #7FD3DF;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        right: -20%;
+        top: -5%;
+        height: 30px;
+        border: 2px solid #7FD3DF;
+        border-radius: 2px;
+
+      }
+    }
+
+    .userNameDiv {
+      display: flex;
+      justify-content: right;
+
+      .userEmail {
+        margin-right: 5px;
+
+        h5 {
+          font-size: 12px;
+        }
+
+        p {
+
+          font-size: 10px;
+          color: rgba(0, 0, 0, 0.4);
+        }
+
+      }
+
+      .userLink {
+        background-color: black;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        color: white;
+        position: relative;
+
+        .link {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+  }
+}
